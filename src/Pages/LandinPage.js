@@ -15,10 +15,18 @@ class LandingPage extends Component
               <div className={styles.navContainer}>
             <MyNav title="MyResume" items={["ABOUT","BLOG","CONTACT"]}/>
             </div>
+
+            <div className={styles.textContainer}>
+<h1 className={styles.welcomeText}>WELCOME TO MY STUDIO!!</h1>
+
+</div>
+
             <div className={styles.buttonContainer}>
            <MyButton className={styles.downloadButton} title="Download CV" variant="success"/>
            <MyButton className={styles.subscribeButton} title="Subscribe" variant="success"/>
            </div>
+
+        
             </div>
           
         )

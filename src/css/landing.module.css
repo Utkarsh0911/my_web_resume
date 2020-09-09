@@ -14,6 +14,7 @@ background-attachment:fixed;
 background-repeat: no-repeat;
 background-size: cover;
 
+
 }
 .navContainer
 {
@@ -23,7 +24,7 @@ background-size: cover;
         display: flex;
         position: absolute;
         width: 100%;
-      
+   
     
     
 }
@@ -32,33 +33,41 @@ background-size: cover;
     display: flex;
     
   
-    margin: auto;
-   
-    width: 25%;
-    height: 20%;
-   align-items: center;
-   justify-content:space-between;
-   
+   align-self: center;
+ margin-bottom: auto;
+   vertical-align: middle;
+ 
 }
 
 .downloadButton{
 
-   text-align: center;
-display: flex;
-width: 30px;
-height: 30px;
+  
 
 
 
 }
 .subscribeButton
 {
-    display: flex;
-    width: 30px;
-    height: 30px;
-    text-align: center;
+    
     
     
     
 
+}
+.textContainer
+{
+
+
+    display: flex;
+    margin-top: auto;
+  
+    align-self: center;
+}
+.welcomeText
+{
+    font-size:50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
+    
 }

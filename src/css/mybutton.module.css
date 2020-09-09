@@ -14,10 +14,17 @@ margin: auto;
 {
     width:175px;
 margin: 10px;
- 
-    border-radius:10px;
-    -webkit-border-radius:10px;
-    box-shadow:0 1px 2px #5e5d5b;
+  border-radius:10px;
+ -webkit-border-radius:10px;
+ box-shadow:0 1px 2px #5e5d5b;
     text-align: center;  
+    
+}
+.welcomeText
+{
+    font-size: larger;
+    font-family: fantasy;
+    color: white;
+    
     
 }
