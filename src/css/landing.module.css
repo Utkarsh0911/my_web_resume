@@ -1,0 +1,15 @@
+.container
+{
+
+
+background-image: url('../Images/LandingPage/landingBackground.jpeg');
+
+position: relative;
+height:100vh;
+background-repeat: no-repeat;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+color: #fff;
+}
