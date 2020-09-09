@@ -9,6 +9,7 @@ class MyNav extends Component{
     render() {
       
         return (
+         
             <Navbar className={styles.navContainer} bg='dark' expand="lg">
             <Navbar.Brand href="#home"><h6 className={styles.navTitle}>{this.props.title}</h6></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -20,6 +21,7 @@ class MyNav extends Component{
                 </Nav>
               </Navbar.Collapse>
           </Navbar> 
+         
            
         )
     }
