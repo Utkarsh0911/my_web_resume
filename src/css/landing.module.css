@@ -6,23 +6,19 @@ display: flex;
 
 
 background-image: url('../Images/LandingPage/landingBackground.jpeg'); 
-width: 100%;
+width: auto;
 height:400px;
 flex-direction: column;
 
 background-attachment:fixed;
 background-repeat: no-repeat;
-background-size: cover;
-background-size: 100%,200px;
 
+background-size: 100%,auto;
+flex-basis: 100%;
 
 }
 .AboutMe{
-    background-image: url("../Images/LandingPage/technical.jpg");
-    background-attachment:fixed;
-background-repeat: no-repeat;
-background-size: cover;
-background-size: 100%,200px;
+  
 }
 .navContainer
 {
@@ -30,8 +26,9 @@ background-size: 100%,200px;
 
  
         display: flex;
-        width: 100%;
-
+       flex-basis: 100%;
+width: auto;
+height: auto;
     
     
 }
@@ -43,7 +40,9 @@ background-size: 100%,200px;
    align-self: center;
   
 margin-top: 10px;
-
+flex-basis: 100%;
+width: auto;
+height: auto;
 
 }
 
@@ -70,6 +69,7 @@ margin-top: 10px;
   
   margin-top: 10%;
     align-self: center;
+    flex-basis: 100%;
 }
 .welcomeText
 {
@@ -85,16 +85,46 @@ margin-top: 10px;
    
 display: flex;
 
-width: 400px;
-height: 1000px;
+width: auto;
+height: auto;
    align-self: center;
-   margin-top: 20px;
+   margin-top: 10px;
    align-items: center;
    justify-content: center;
+   flex-basis:100%;
  
 }
 
-@media(max-width:500px)
+
+@media(min-width:500px) and (max-width:695px)
+{
+
+    .welcomeText
+    {
+        font-size:30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        
+        
+    }
+
+    .textContainer{
+
+        margin-top: 80px;
+        
+            }
+.imageContainer
+{
+    margin-top: 40px;
+}
+
+
+}
+
+
+
+
+@media (min-width:415px) and (max-width:500px)
 {
     .textContainer{
 
@@ -122,13 +152,13 @@ height:100px;
    margin-top:70px;
    align-items: center;
    justify-content: center;
- 
+   flex-basis:100%;
 }
 
 .buttonContainer
 {
     display: flex;
-    
+    flex-basis:100%;
   
    align-self: center;
   
@@ -137,6 +167,39 @@ width: auto;
 
 
 }
+
+
+}
+@media(max-width:415px)
+{
+.container{
+
+    background-size: 100% 300px;
+}
+    .textContainer{
+
+        margin-top: 60px;
+        
+            }
+            .welcomeText
+            {
+                font-size:20px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: white;
+                
+                
+            }
+            .buttonContainer
+            {
+                display: flex;
+                
+                flex-basis:100%;
+              flex-direction: column;
+              
+           
+            
+            
+            }
 
 
 }
