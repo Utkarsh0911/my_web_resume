@@ -3,13 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import { render } from '@testing-library/react';
 import LandingPage from './Pages/LandinPage';
-
+import styles from './css/landing.module.css'
 class App extends React.Component {
   
 
 render() {
   return (
-    <div className={StyleSheetList.container}>
+    <div className={styles.container}>
 
 <LandingPage/>
       

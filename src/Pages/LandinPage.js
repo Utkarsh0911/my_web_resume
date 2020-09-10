@@ -4,7 +4,9 @@ import MyNav from '../Components/MyNav'
 import styles from '../css/landing.module.css'
 import { Button } from 'react-bootstrap'
 import MyButton from '../Components/MyButton'
-
+import Myphoto from '../Images/MyPhoto/photo.png'
+import MyRoundedImage from '../Components/MyRoundedImage'
+import AboutMe from './AboutMe'
 class LandingPage extends Component
 {
     render() {
@@ -27,6 +29,13 @@ class LandingPage extends Component
            </div>
 
         
+<div className={styles.imageContainer}>
+        <MyRoundedImage src={Myphoto}/>
+        </div>
+
+
+<AboutMe className={styles.AboutMe}/>
+
             </div>
           
         )

@@ -10,7 +10,7 @@ class MyNav extends Component{
       
         return (
          
-            <Navbar className={styles.navContainer} bg='dark' expand="lg">
+            <Navbar className={ styles.navContainer} bg='dark' expand="lg" fixed="top">
             <Navbar.Brand href="#home"><h6 className={styles.navTitle}>{this.props.title}</h6></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

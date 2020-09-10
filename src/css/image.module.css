@@ -1,0 +1,21 @@
+.roundImage
+{
+
+    display: flex;
+  width: 400px;
+  height:400px
+
+ 
+}
+@media(max-width:500px)
+{
+    .roundImage
+    {
+    
+        display: flex;
+      width: 200px;
+      height:200px;
+    
+     
+    }
+}
