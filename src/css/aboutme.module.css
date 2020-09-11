@@ -3,7 +3,7 @@
 .container
 {
     display: flex;
-    margin: auto;
+ 
     margin-top: 50px;
     flex-direction: column;
     height: 400px;
@@ -29,7 +29,7 @@ background-size: 100%,200px; */
 .aboutText
 {
 font-family: 'Roboto Mono', monospace;
-    padding: 20px;
+    padding: 5px;
     font-size: 30px;
     border: gray;
     border-width: 10px;
@@ -49,7 +49,16 @@ font-family: 'Roboto Mono', monospace;
 
 
 @media (max-width:415px) 
+{.aboutContainer
 {
+    display: flex;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
 
     .container
     {
@@ -62,51 +71,21 @@ font-family: 'Roboto Mono', monospace;
   .text
     {
         font-family: 'Lobster', cursive;
-        font-size: 20px;
+        font-size: 30px;
         align-self: center;
     }
      
     .aboutText
     {
     font-family: 'Roboto Mono', monospace;
-        padding: 20px;
-        font-size: 10px;
+        padding: 30px;
+        font-size: 15px;
         border: gray;
         border-width: 10px;
     }
 }
 
 
-
-
-
-@media (max-width:415px)
-{
-
-    .text
-    {
-        font-family: 'Lobster', cursive;
-        font-size:35px;
-        align-self: center;
-    }
-    .container
-    {
-        display: flex;
-        margin: auto;
-        
-        flex-direction: column;
-    }
-   
-    .aboutText
-    {
-    font-family: 'Roboto Mono', monospace;
-        padding: 10px;
-        font-size: 17px;
-        border: gray;
-        border-width: 10px;
-    }
-
-}
 
 
 @media (min-width:415px) and (max-width:500px)
@@ -118,14 +97,14 @@ font-family: 'Roboto Mono', monospace;
     .text
     {
         font-family: 'Lobster', cursive;
-        font-size:35px;
+        font-size:2px;
         align-self: center;
     }
     .container
     {
         display: flex;
         margin: auto;
-        margin-top: 80px;
+        margin-top: 50px;
         flex-direction: column;
     }
    
@@ -142,9 +121,7 @@ font-family: 'Roboto Mono', monospace;
 @media(min-width:500px) and (max-width:695px)
 {
 
-
-
-    .text
+ .text
     {
         font-family: 'Lobster', cursive;
         font-size:30px;
@@ -168,3 +145,30 @@ font-family: 'Roboto Mono', monospace;
     }
 
 }
+
+
+@media(min-width:695px) and (max-width:900px){
+    .text
+    {
+        font-family: 'Lobster', cursive;
+        font-size:30px;
+        align-self: center;
+    }
+    .container
+    {
+        display: flex;
+        margin: auto;
+        margin-top: 25px;
+        flex-direction: column;
+       
+    }
+   
+    .aboutText
+    {
+    font-family: 'Roboto Mono', monospace;
+        padding: 10px;
+        font-size: 20px;
+        
+       
+    }
+    }

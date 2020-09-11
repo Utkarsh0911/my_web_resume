@@ -7,6 +7,9 @@ import MyButton from '../Components/MyButton'
 import Myphoto from '../Images/MyPhoto/photo.png'
 import MyRoundedImage from '../Components/MyRoundedImage'
 import AboutMe from './AboutMe'
+import Experience from './Experience'
+
+import MySimpleImage from '../Components/MySimpleImage'
 class LandingPage extends Component
 {
     render() {
@@ -35,6 +38,15 @@ class LandingPage extends Component
 
 
 <AboutMe className={styles.AboutMe}/>
+
+<div className={styles.expImageContainer}>
+<MySimpleImage/>
+</div>
+
+<div className={styles.expContainer}>
+<Experience/>
+  
+</div>
 
             </div>
           
