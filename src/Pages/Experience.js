@@ -12,40 +12,10 @@ class Experience extends Component{
        
       
         return (
-            <Carousel className={styles.container}>
-            <Carousel.Item className={styles.Item}> 
-              <Image roundedCircle
-                className={styles.image}
-                src={tcsImage}
-                alt="First slide"
-              />
-             
-              <Carousel.Caption>
-                <h1>First slide label</h1>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-
-
-
-
-            <Carousel.Item className={styles.Item}> 
-              <Image roundedCircle
-                className={styles.image}
-                src={tcsImage}
-                alt="First slide"
-              />
-             
-              <Carousel.Caption>
-                <h1>First slide label</h1>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-
-
-            
-          </Carousel>
+         
+          <div></div>
         )
+  
     }
     }
 

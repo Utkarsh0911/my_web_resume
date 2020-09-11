@@ -1,28 +1,14 @@
 .container
 {
+
 display: flex;
-flex-direction: column;
-    width: 100%;
-    height: 350px;
-   
-  
-  
-    
+width: 100%;
+height: 500px;
+background-color: mediumaquamarine;
+
 }
-.image
+.img
 {
 
-    width: 200px;
-    height:200px;
-   
-   
-   
-}
-.Item{
-    display: flex;
-    flex-direction: column;
-   height: 350px;
-  align-items: center;
-    
-    background-color: indigo;
+    height: 100%;
 }
