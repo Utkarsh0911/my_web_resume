@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/my_web_resume/static/css/main.f930e498.chunk.css",
+    "main.js": "/my_web_resume/static/js/main.b43760c6.chunk.js",
+    "main.js.map": "/my_web_resume/static/js/main.b43760c6.chunk.js.map",
+    "runtime-main.js": "/my_web_resume/static/js/runtime-main.fcb9f4b0.js",
+    "runtime-main.js.map": "/my_web_resume/static/js/runtime-main.fcb9f4b0.js.map",
+    "static/js/2.877cd3a2.chunk.js": "/my_web_resume/static/js/2.877cd3a2.chunk.js",
+    "static/js/2.877cd3a2.chunk.js.map": "/my_web_resume/static/js/2.877cd3a2.chunk.js.map",
+    "index.html": "/my_web_resume/index.html",
+    "precache-manifest.5ce24bd0c1ae8f8b85c87ec94829e213.js": "/my_web_resume/precache-manifest.5ce24bd0c1ae8f8b85c87ec94829e213.js",
+    "service-worker.js": "/my_web_resume/service-worker.js",
+    "static/css/main.f930e498.chunk.css.map": "/my_web_resume/static/css/main.f930e498.chunk.css.map",
+    "static/js/2.877cd3a2.chunk.js.LICENSE.txt": "/my_web_resume/static/js/2.877cd3a2.chunk.js.LICENSE.txt",
+    "static/media/education.module.css": "/my_web_resume/static/media/edu.bfcbffef.jpeg",
+    "static/media/exp.module.css": "/my_web_resume/static/media/expbg.9f188c03.jpeg",
+    "static/media/experience.png": "/my_web_resume/static/media/experience.c4dded40.png",
+    "static/media/landing.module.css": "/my_web_resume/static/media/landingBackground.feeba87d.jpeg",
+    "static/media/logo.jpg": "/my_web_resume/static/media/logo.4249c8f2.jpg",
+    "static/media/logo.svg": "/my_web_resume/static/media/logo.5d5d9eef.svg",
+    "static/media/mapmyindia.jpg": "/my_web_resume/static/media/mapmyindia.67305014.jpg",
+    "static/media/photo.png": "/my_web_resume/static/media/photo.243af546.png",
+    "static/media/resume.pdf": "/my_web_resume/static/media/resume.9708b0f3.pdf",
+    "static/media/skills.module.css": "/my_web_resume/static/media/skill.93912274.jpeg",
+    "static/media/tcs.jpg": "/my_web_resume/static/media/tcs.cab517d9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fcb9f4b0.js",
+    "static/js/2.877cd3a2.chunk.js",
+    "static/css/main.f930e498.chunk.css",
+    "static/js/main.b43760c6.chunk.js"
+  ]
+}
