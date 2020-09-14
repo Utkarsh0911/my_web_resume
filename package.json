@@ -2,7 +2,7 @@
   "name": "my_web_resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "utkarsh0911.github.io/my_web_resume",
+  "homepage": "http://utkarsh0911.github.io/my_web_resume",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@testing-library/jest-dom": "^4.2.4",
@@ -19,8 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm build",
-    "deploy":"gh-pages -d buid"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d buid"
   },
   "eslintConfig": {
     "extends": "react-app"
