@@ -8,8 +8,14 @@ import Myphoto from '../Images/MyPhoto/photo.png'
 import MyRoundedImage from '../Components/MyRoundedImage'
 import AboutMe from './AboutMe'
 import Experience from './Experience'
-
+import Skills from './Skills'
 import MySimpleImage from '../Components/MySimpleImage'
+import Education from './Education'
+import resume from '../docs/resume.pdf'
+import MyFooter from '../Components/MyFooter'
+
+
+
 class LandingPage extends Component
 {
     render() {
@@ -27,7 +33,7 @@ class LandingPage extends Component
 </div>
 
             <div className={styles.buttonContainer}>
-           <MyButton className={styles.downloadButton} title="Download CV" variant="success"/>
+            <a href={resume} target="_blank" rel="noopener noreferrer" download>  <MyButton    className={styles.downloadButton} title="Download CV" variant="success"/></a>
            <MyButton className={styles.subscribeButton} title="Subscribe" variant="success"/>
            </div>
 
@@ -37,7 +43,7 @@ class LandingPage extends Component
         </div>
 
 
-<AboutMe className={styles.AboutMe}/>
+<AboutMe />
 
 <div className={styles.expImageContainer}>
 <MySimpleImage/>
@@ -47,6 +53,14 @@ class LandingPage extends Component
 <Experience/>
   
 </div>
+
+<div className={styles.headWord}><h1 className={styles.headText}>SKILLS</h1></div>
+<Skills/>
+<div className={styles.headWord}><h1 className={styles.headText}>EDUCATION</h1></div>
+<Education/>
+
+
+<MyFooter/>
 
             </div>
           

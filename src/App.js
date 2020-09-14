@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { render } from '@testing-library/react';
 import LandingPage from './Pages/LandinPage';
-import styles from './css/landing.module.css'
+import styles from './css/app.module.css'
 class App extends React.Component {
   
 

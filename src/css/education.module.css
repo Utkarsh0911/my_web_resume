@@ -1,0 +1,19 @@
+.container
+{
+background-image: url("../Images/education/edu.jpeg");
+display: flex;
+ 
+ flex:1;
+   flex-direction: column;
+ 
+background-attachment:fixed;
+background-repeat: no-repeat;
+
+   
+    background-size: cover;
+    width: 100%;
+   
+   
+    padding: 10px;
+    
+}

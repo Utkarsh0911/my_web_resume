@@ -1,29 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 .container
 {
 
     
 display: flex;
+flex:1;
+
 
 
 background-image: url('../Images/LandingPage/landingBackground.jpeg'); 
-flex-basis: 100%;
-height:500px;
-margin: 0;
-padding: 0;
-padding-left: 10px;
-padding-right: 10px;
-background-color: #A9A9A9;
+width: 100%;
+
+position: absolute;
+height: 600px;
+
 flex-direction: column;
-flex-grow: 100;
+
 background-attachment:fixed;
 background-repeat: no-repeat;
-background-size: cover;
-
+background-size: 100% 500px;
 
 }
-.AboutMe{
-  
-}
+
 .navContainer
 {
    
@@ -33,7 +31,7 @@ background-size: cover;
        flex-basis: 100%;
 width: auto;
 height: auto;
-    overflow: hidden;
+  
     
 }
 .buttonContainer
@@ -49,22 +47,45 @@ width: auto;
 height: auto;
 
 }
-
-.downloadButton{
-
-  
-
-
-
-}
-
+.headWord
 {
-    
-    
-    
-    
+    display: flex;
+
+align-items: center;
+background-color: #BFC9CA ;
+justify-content: center;
+margin-top: 20px;
 
 }
+
+.headText
+{
+    font-size: 50px;
+    font-family: 'Fredoka One', cursive;
+}
+
+
+
+.eduWord
+{
+    display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #BFC9CA ;
+justify-content: center;
+margin-top: 20px;
+
+}
+
+.eduText
+{
+
+    flex:1;
+    font-size: 100px;
+ 
+    font-family: 'Fredoka One', cursive;
+}
+
 .textContainer
 {
 
@@ -103,28 +124,40 @@ height: auto;
 display: flex;
 
 width: 100%;
-height:auto;
-margin-top: 40px;
-padding-left: 40px;
-padding-right: 40px;
-background-color: maroon;
 
-justify-content: center;
+
+
+margin-top: 20px;
+
+flex-direction: row;
+
+
+}
+.eduContainer
+{
+   
+    display: flex;
+
+width: 100%;
+
+
+
+margin-top: 20px;
+
+flex-direction: column;
+
 
 }
 
 .expImageContainer{
 
-    display: flex;
-    width: 100%;
-    height: 500px;
-position: relative;
-align-items: center;
-margin-top: 20px;
+   display: flex;
+   width: 100%;
 
-justify-content: center;
-
-background-color: #A9A9A9;
+ 
+   flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
 
 }
 
@@ -158,7 +191,14 @@ background-color: #A9A9A9;
 {
     margin-top: 40px;
 }
+.eduText
+{
 
+    flex:1;
+    font-size: 80px;
+ 
+    font-family: 'Fredoka One', cursive;
+}
 
 }
 
@@ -214,7 +254,14 @@ width: auto;
 
 
 }
+.eduText
+{
 
+    flex:1;
+    font-size: 65px;
+ 
+    font-family: 'Fredoka One', cursive;
+}
 
 }
 @media(max-width:415px)
@@ -252,6 +299,40 @@ width: auto;
             
             
             }
+            
 
+
+}
+
+@media (min-width:320px) and (max-width:415px)
+{
+
+
+    .container{
+
+        display: flex;
+        width: 100%;
+        background-size: cover;
+    }
+    .eduText
+{
+
+    flex:1;
+    font-size: 40px;
+ 
+    font-family: 'Fredoka One', cursive;
+}
+}
+
+@media (min-width:0px) and (max-width:320px)
+{
+    .eduText
+    {
+    
+        flex:1;
+        font-size: 20px;
+     
+        font-family: 'Fredoka One', cursive;
+    }
 
 }

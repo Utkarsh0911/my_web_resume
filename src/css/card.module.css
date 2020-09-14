@@ -1,0 +1,27 @@
+.container
+{
+    display: flex;
+    margin: auto;
+ 
+ flex-wrap: wrap;   
+ 
+   width: 600px;
+   background-color: mediumblue;
+}
+.card
+{
+
+    display: flex;
+ 
+    margin: 20px;
+    height: auto;
+   width: 100%;
+}
+.img
+{
+
+    width: 20vw;
+    height: 10vw;
+    object-fit: cover;
+  
+}
