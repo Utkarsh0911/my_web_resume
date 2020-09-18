@@ -1,37 +1,6 @@
 
-
-.container
-{
-
-display: flex;
-float: 1;
-margin: auto;
-
-}
-
-
 .button
 {
-    width:175px;
-margin: 10px;
-  border-radius:10px;
- -webkit-border-radius:10px;
- box-shadow:0 1px 2px #5e5d5b;
-    text-align: center;  
+   width: 10em;
     
-}
-@media(max-width:500px)
-{
-    .button
-    {
-        widows: 100px;;
-
-      border-radius:10px;
-     -webkit-border-radius:10px;
-     box-shadow:0 1px 2px #5e5d5b;
-        text-align: center;  
-        
-    }
-
-
 }

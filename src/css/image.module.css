@@ -8,53 +8,20 @@
 
  
 }
-.image{
+.img{
 
-
-  object-fit: cover;
-}
-@media (min-width:415px) and (max-width:500px)
-{
-    .roundImage
-    {
-    
-        display: flex;
-      width: 200px;
-      height:200px;
-    
-     
-    }
-}
-
-@media (max-width:415px)
-{
-
-    .roundImage
-    {
-    
-        display: flex;
-      width: 170px;
-      height:170px;
-    
-     
-    }
-
+max-width: 70%;
+max-height: 70%;
 
 }
-
-@media(min-width:500px) and (max-width:695px)
+@media(max-width:368px)
 {
 
+  .img{
 
-    .roundImage
-    {
+ width: 60%;
+ height: 60%;
     
-        display: flex;
-      width: 250px;
-      height:250px;
-   
     }
-
-
 
 }

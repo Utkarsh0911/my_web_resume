@@ -7,7 +7,7 @@ class MyRoundedImage extends Component
     render() {
         return (
             
-            <Image src={this.props.src} roundedCircle className={styles.roundImage} />
+            <Image src={this.props.src} roundedCircle className={` ${styles.img}`}/>
         
         )
     }

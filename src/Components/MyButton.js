@@ -6,7 +6,7 @@ class MyButton extends Component
     render() {
         return (
          
-        <Button  onClick={this.props.onClick} className={styles.button} variant={this.props.variant}>{this.props.title}</Button>
+  <Button  onClick={this.props.onClick} className={`btn btn-success mr-3 align-self-center ${styles.button}`} variant={this.props.variant}>{this.props.title}</Button>
        
        
        

@@ -9,7 +9,7 @@ class App extends React.Component {
 
 render() {
   return (
-    <div className={styles.container}>
+    <div className="d-flex w-100 h-100">
 
 <LandingPage/>
       

@@ -2,7 +2,7 @@ import React, { Component ,Text,StyleSheet} from 'react'
 import Logo from '../Images/SiteLogo/logo.jpg'
 import MyNav from '../Components/MyNav'
 import styles from '../css/landing.module.css'
-import { Button } from 'react-bootstrap'
+import { Button, Container } from 'react-bootstrap'
 import MyButton from '../Components/MyButton'
 import Myphoto from '../Images/MyPhoto/photo.png'
 import MyRoundedImage from '../Components/MyRoundedImage'
@@ -13,7 +13,7 @@ import MySimpleImage from '../Components/MySimpleImage'
 import Education from './Education'
 import resume from '../docs/resume.pdf'
 import MyFooter from '../Components/MyFooter'
-
+import MyJumbo from '../Components/MyJumbo'
 
 
 class LandingPage extends Component
@@ -22,45 +22,62 @@ class LandingPage extends Component
         return (
          
 
-          <div className={styles.container}>
-              <div className={styles.navContainer}>
+          <div className={ `w-100 d-flex flex-column align-items-center m-0 position-absolute ${styles.container} `} >  
+              
+              <div className="container ">
             <MyNav title="MyResume" items={["ABOUT","BLOG","CONTACT"]}/>
             </div>
 
-            <div className={styles.textContainer}>
-<h1 className={styles.welcomeText}>WELCOME TO MY STUDIO!!</h1>
-
+            <div className="d-flex justify-content-center ">
+<h1 className={`font-weight-bold text-white text-center  ${styles.h1}`}>WELCOME TO MY STUDIO!!</h1>
 </div>
 
-            <div className={styles.buttonContainer}>
-            <a href={resume} target="_blank" rel="noopener noreferrer" download>  <MyButton    className={styles.downloadButton} title="Download CV" variant="success"/></a>
-           <MyButton className={styles.subscribeButton} title="Subscribe" variant="success"/>
-           </div>
+
+            <div className="d-flex flex-wrap justify-content-center mt-2 ">
+             
+
+
+
+            <a href={resume} target="_blank" rel="noopener noreferrer" download>  
+            
+           <MyButton   title="Download CV" variant="success"/></a>
+
+
+
+
+<MyButton  title="Subscribe" variant="success"/>
+      
+     
+           </div> 
 
         
-<div className={styles.imageContainer}>
+<div className="d-flex  flex-wrap clearfix  mt-1 flex-wrap justify-content-center align-items-center">
         <MyRoundedImage src={Myphoto}/>
         </div>
 
 
-<AboutMe />
+ <AboutMe /> 
+<MyJumbo title="EXPERIENCE"/>
 
-<div className={styles.expImageContainer}>
-<MySimpleImage/>
-</div>
-
-<div className={styles.expContainer}>
-<Experience/>
   
-</div>
 
-<div className={styles.headWord}><h1 className={styles.headText}>SKILLS</h1></div>
+ <div className={styles.expContainer}>
+<Experience/>
+
+</div> 
+
+
+
+<MyJumbo title="SKILLS"/>
 <Skills/>
-<div className={styles.headWord}><h1 className={styles.headText}>EDUCATION</h1></div>
+
+
+
+<MyJumbo title="EDUCATION"/>
 <Education/>
 
 
-<MyFooter/>
+{/* <MyFooter/> */}
 
             </div>
           

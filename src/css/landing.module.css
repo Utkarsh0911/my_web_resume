@@ -2,337 +2,34 @@
 .container
 {
 
-    
-display: flex;
-flex:1;
+
+background-image: url('../Images/LandingPage/landingBackground.jpg'); 
 
 
 
-background-image: url('../Images/LandingPage/landingBackground.jpeg'); 
-width: 100%;
-
-position: absolute;
-height: 600px;
-
-flex-direction: column;
 
 background-attachment:fixed;
 background-repeat: no-repeat;
-background-size: 100% 500px;
+
+background-size: 100% 60%;
+font-size: 10px;
 
 }
 
-.navContainer
+
+.h1
 {
-   
-
- 
-        display: flex;
-       flex-basis: 100%;
-width: auto;
-height: auto;
-  
-    
-}
-.buttonContainer
-{
-    display: flex;
-    
-  
-   align-self: center;
-  
-margin-top: 10px;
-flex-basis: 100%;
-width: auto;
-height: auto;
-
-}
-.headWord
-{
-    display: flex;
-
-align-items: center;
-background-color: #BFC9CA ;
-justify-content: center;
-margin-top: 20px;
-
-}
-
-.headText
-{
-    font-size: 50px;
-    font-family: 'Fredoka One', cursive;
+    font-size: 4em;
+margin-top: 2em;
 }
 
 
 
-.eduWord
-{
-    display: flex;
-flex-direction: column;
-align-items: center;
-background-color: #BFC9CA ;
-justify-content: center;
-margin-top: 20px;
-
-}
-
-.eduText
+@media(max-width:368px)
 {
 
-    flex:1;
-    font-size: 100px;
- 
-    font-family: 'Fredoka One', cursive;
-}
-
-.textContainer
-{
-
-
-    display: flex;
-  
-  margin-top: 10%;
-    align-self: center;
-    flex-basis: 100%;
-}
-.welcomeText
-{
-    font-size:50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    
-    
-}
-.imageContainer
-{
-
-   
-display: flex;
-
-width: auto;
-height: auto;
-   align-self: center;
-   margin-top: 10px;
-   align-items: center;
-   justify-content: center;
-   flex-basis:100%;
- 
-}
-.expContainer{
-
-display: flex;
-
-width: 100%;
-
-
-
-margin-top: 20px;
-
-flex-direction: row;
-
-
-}
-.eduContainer
-{
-   
-    display: flex;
-
-width: 100%;
-
-
-
-margin-top: 20px;
-
-flex-direction: column;
-
-
-}
-
-.expImageContainer{
-
-   display: flex;
-   width: 100%;
-
- 
-   flex-wrap: wrap;
-  padding: 10px;
-  justify-content: center;
-
-}
-
-
-
-
-@media(min-width:500px) and (max-width:695px)
-{
-
-
-    .container{
-
-        width: 100%;
-        height:400px
-    }
-    .welcomeText
-    {
-        font-size:30px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: white;
-        
-        
-    }
-
-    .textContainer{
-
-        margin-top: 80px;
-        
-            }
-.imageContainer
-{
-    margin-top: 40px;
-}
-.eduText
-{
-
-    flex:1;
-    font-size: 80px;
- 
-    font-family: 'Fredoka One', cursive;
-}
-
-}
-
-
-
-
-@media (min-width:415px) and (max-width:500px)
-{
-
-    .container{
-
-        width: 100%;
-        height:400px
-    }
-    .textContainer{
-
-margin-top: 70px;
-
-    }
-    .welcomeText
-    {
-        font-size:30px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: white;
-        
-        
-    }
-
-    .imageContainer
-{
-
-   
-display: flex;
-
-width: 200px;
-height:100px;
-   align-self: center;
-   margin-top:80px;
-   align-items: center;
-   justify-content: center;
-   flex-basis:100%;
-}
-
-.buttonContainer
-{
-    display: flex;
-    flex-basis:100%;
-  
-   align-self: center;
-  
-margin-top: 10px;
-width: auto;
-
-
-}
-.eduText
-{
-
-    flex:1;
-    font-size: 65px;
- 
-    font-family: 'Fredoka One', cursive;
-}
-
-}
-@media(max-width:415px)
-{
 .container{
-
-    background-size: 100% 300px;
- 
-
-        width: 100%;
-        height:300px
-    
+    flex-direction: column;
 }
-    .textContainer{
-
-        margin-top: 60px;
-        
-            }
-            .welcomeText
-            {
-                font-size:20px;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                color: white;
-                
-                
-            }
-            .buttonContainer
-            {
-                display: flex;
-                
-                flex-basis:100%;
-              flex-direction: column;
-              
-           
-            
-            
-            }
-            
-
-
-}
-
-@media (min-width:320px) and (max-width:415px)
-{
-
-
-    .container{
-
-        display: flex;
-        width: 100%;
-        background-size: cover;
-    }
-    .eduText
-{
-
-    flex:1;
-    font-size: 40px;
- 
-    font-family: 'Fredoka One', cursive;
-}
-}
-
-@media (min-width:0px) and (max-width:320px)
-{
-    .eduText
-    {
-    
-        flex:1;
-        font-size: 20px;
-     
-        font-family: 'Fredoka One', cursive;
-    }
 
 }

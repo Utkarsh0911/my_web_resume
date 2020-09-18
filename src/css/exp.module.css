@@ -6,23 +6,23 @@ background-image: url("../Images/experience/expbg.jpeg");
  
  flex:1;
    
-  
+  width: 100%;
    padding: 0px;
   margin-top: 40px;
     justify-content: center;
     background-size: cover;
-    
 }
 
 
 .mycard{
 
-display: flex;
-width: 600px;
-height:1000px;
+
+
 background-color: mediumorchid;
 object-fit: cover;
 
+max-width: 18rem;
+max-height: 20rem;
 }
 
 

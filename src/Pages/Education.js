@@ -7,7 +7,7 @@ class Education extends Component
 {
     render() {
         return (
-            <div className={styles.container}>
+            <div className="d-flex flex-column mt-2 w-100 p-4">
    <MyAccoordion  cource="Bachelor of Technology." description="Completed B.Tech ( CSE ) from Bharat Institute of Technology with an aggregate of 78%."/>
    <MyAccoordion cource="Intermediate" description="Completed XII from Kendriya Vidyalaya No. 2 , Delhi Cantt, New Delhi with the aggregate of 71%"/>
    <MyAccoordion cource="High School" description="Completed X from Kendriya Vidyalaya No. 1 , Pathankot, Punjab with the aggregate of 84%"/>
